@@ -1,0 +1,130 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Eight coordinate protocols / native and Node WASM",
+  "sourceSha256": "64811af36d8ece0ad95719f5f4e6906487ff3260336000d8eea950f6c57b56a9",
+  "measurements": {
+    "passed": true,
+    "measurements": [
+      {
+        "protocol": "score",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": 32.33483681374909,
+        "wasmEnergy": 32.33483681375084,
+        "nativeRescore": 32.33483681374909,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 102791.251417,
+        "heapBytes": 231997440,
+        "snapshots": 2,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "relax",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -48.16143262115862,
+        "wasmEnergy": -48.17565422427388,
+        "nativeRescore": -48.17565422424631,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 12615.97945900001,
+        "heapBytes": 231997440,
+        "snapshots": 47,
+        "minimizingSnapshots": 19,
+        "packingSnapshots": 4,
+        "passed": true
+      },
+      {
+        "protocol": "minimize",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -15.225206295862034,
+        "wasmEnergy": -15.259485313921246,
+        "nativeRescore": -15.259485313938908,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 2313.6843749999825,
+        "heapBytes": 231997440,
+        "snapshots": 9,
+        "minimizingSnapshots": 7,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "repack",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -16.583814781752224,
+        "wasmEnergy": -16.583814781746845,
+        "nativeRescore": -16.583814781752224,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 1222.096458999993,
+        "heapBytes": 231997440,
+        "snapshots": 3,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 1,
+        "passed": true
+      },
+      {
+        "protocol": "fixed_backbone_design",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -34.49501374188374,
+        "wasmEnergy": -34.49501374188551,
+        "nativeRescore": -34.49501374188374,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 347469.968292,
+        "heapBytes": 278396928,
+        "snapshots": 5,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 3,
+        "passed": true
+      },
+      {
+        "protocol": "fastdesign",
+        "inputSha256": "cf8abbf574a14fb34fe4c891a07e86f2d542131440c7ca565573ff8cdbf4fbee",
+        "nativeEnergy": -14.119328657333739,
+        "wasmEnergy": -14.135587822283776,
+        "nativeRescore": -14.135587822278783,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 333491.367584,
+        "heapBytes": 278396928,
+        "snapshots": 34,
+        "minimizingSnapshots": 3,
+        "packingSnapshots": 7,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_minimize",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -27.522741696856144,
+        "wasmEnergy": -27.521237856007076,
+        "nativeRescore": -27.521237855945188,
+        "objectiveScoreFunction": "ref2015_cart",
+        "wasmMs": 10203.97662500001,
+        "heapBytes": 278396928,
+        "snapshots": 39,
+        "minimizingSnapshots": 37,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_relax",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "nativeEnergy": -53.73791950849781,
+        "wasmEnergy": -54.08131283443628,
+        "nativeRescore": -54.08131283443857,
+        "objectiveScoreFunction": "ref2015_cart",
+        "wasmMs": 37805.24766700005,
+        "heapBytes": 278396928,
+        "snapshots": 152,
+        "minimizingSnapshots": 124,
+        "packingSnapshots": 4,
+        "passed": true
+      }
+    ],
+    "peakHeapBytes": 278396928,
+    "packageBytes": 146090371,
+    "startupMs": 965.175,
+    "liveView": {
+      "seededResultUnchanged": true,
+      "minimizingSnapshots": 19,
+      "packingSnapshots": 4
+    }
+  }
+}

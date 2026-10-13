@@ -1,0 +1,146 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "October 12 TURN setup UI, connection states and attempt history",
+  "sourceSha256": "36a453f10f4458e65499535407501e7bf7164f0e9f38fe0460733408bd7437db",
+  "measurements": {
+    "checkedAt": "2026-10-12T17:53:04.682Z",
+    "passed": true,
+    "unitChecks": {
+      "passed": 288,
+      "skipped": 1,
+      "typecheck": true,
+      "extensionBuild": true
+    },
+    "setupUi": {
+      "checkedAt": "2026-10-12T17:53:04.682Z",
+      "passed": true,
+      "browsers": [
+        {
+          "name": "chrome",
+          "version": "153.0.8010.54",
+          "passed": true,
+          "checks": {
+            "success": true,
+            "failure": true,
+            "editCancellation": true,
+            "closeCancellation": true,
+            "cleanup": true,
+            "appliesOnlyOnSave": true,
+            "noScienceWorkers": true
+          }
+        },
+        {
+          "name": "brave",
+          "version": "155.0.8059.40",
+          "passed": true,
+          "checks": {
+            "success": true,
+            "failure": true,
+            "editCancellation": true,
+            "closeCancellation": true,
+            "cleanup": true,
+            "appliesOnlyOnSave": true,
+            "noScienceWorkers": true
+          }
+        }
+      ]
+    },
+    "networkRecovery": {
+      "checkedAt": "2026-10-12T17:51:53.029Z",
+      "passed": true,
+      "browser": "chrome",
+      "browserVersion": "153.0.8010.54",
+      "assignedDevices": 6,
+      "lateIce": [
+        {
+          "emitted": 30,
+          "applied": 30
+        },
+        {
+          "emitted": 5,
+          "applied": 5
+        },
+        {
+          "emitted": 5,
+          "applied": 5
+        },
+        {
+          "emitted": 5,
+          "applied": 5
+        },
+        {
+          "emitted": 10,
+          "applied": 0
+        },
+        {
+          "emitted": 5,
+          "applied": 5
+        }
+      ],
+      "droppedInitialSignals": 10,
+      "connectionDiagnostics": {
+        "checkedAt": "2026-10-12T17:53:24.364Z",
+        "relays": [
+          {
+            "accepted": false
+          },
+          {
+            "accepted": true
+          }
+        ],
+        "devices": [
+          {
+            "device": 1,
+            "connected": true,
+            "connection": {
+              "turnConfigured": false
+            }
+          },
+          {
+            "device": 2,
+            "connected": true,
+            "connection": {
+              "turnConfigured": false
+            }
+          },
+          {
+            "device": 3,
+            "connected": true,
+            "connection": {
+              "turnConfigured": false
+            }
+          },
+          {
+            "device": 4,
+            "connected": true,
+            "connection": {
+              "turnConfigured": false
+            },
+            "history": [
+              {
+                "attempt": 5,
+                "startedAt": 1791827554463,
+                "endedAt": 1791827592490,
+                "connection": {
+                  "turnConfigured": false
+                }
+              }
+            ]
+          },
+          {
+            "device": 5,
+            "connected": true,
+            "connection": {
+              "turnConfigured": false
+            }
+          }
+        ]
+      },
+      "offlineOutboxes": 5,
+      "remoteReturnedAndReceipted": 5,
+      "returnedModels": 6,
+      "localParticipated": true,
+      "noScientificPayloadOnRelay": true
+    }
+  }
+}

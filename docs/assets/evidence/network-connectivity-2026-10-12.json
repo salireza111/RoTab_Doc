@@ -1,0 +1,191 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "October 12 late ICE / missed signaling recovery",
+  "sourceSha256": "330ca8e237c45004b405d766c8628c672c2987dda4b479cec3bb14216a69bf8c",
+  "measurements": {
+    "checkedAt": "2026-10-12T16:18:08.415Z",
+    "passed": true,
+    "unitTests": {
+      "passed": 279,
+      "skipped": 1
+    },
+    "typecheckPassed": true,
+    "buildPassed": true,
+    "browsers": [
+      {
+        "checkedAt": "2026-10-12T16:14:46.497Z",
+        "passed": true,
+        "browser": "chrome",
+        "browserVersion": "153.0.8010.54",
+        "assignedDevices": 6,
+        "lateIce": [
+          {
+            "emitted": 30,
+            "applied": 30
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 10,
+            "applied": 0
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          }
+        ],
+        "droppedInitialSignals": 10,
+        "connectionDiagnostics": {
+          "checkedAt": "2026-10-12T16:16:17.758Z",
+          "relays": [
+            {
+              "accepted": false
+            },
+            {
+              "accepted": true
+            }
+          ],
+          "devices": [
+            {
+              "device": 1,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 2,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 3,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 4,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 5,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            }
+          ]
+        },
+        "offlineOutboxes": 5,
+        "remoteReturnedAndReceipted": 5,
+        "returnedModels": 6,
+        "localParticipated": true,
+        "noScientificPayloadOnRelay": true
+      },
+      {
+        "checkedAt": "2026-10-12T16:18:08.415Z",
+        "passed": true,
+        "browser": "brave",
+        "browserVersion": "155.0.8059.40",
+        "assignedDevices": 6,
+        "lateIce": [
+          {
+            "emitted": 25,
+            "applied": 25
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          },
+          {
+            "emitted": 5,
+            "applied": 5
+          }
+        ],
+        "droppedInitialSignals": 10,
+        "connectionDiagnostics": {
+          "checkedAt": "2026-10-12T16:19:14.080Z",
+          "relays": [
+            {
+              "accepted": false
+            },
+            {
+              "accepted": true
+            }
+          ],
+          "devices": [
+            {
+              "device": 1,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 2,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 3,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 4,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            },
+            {
+              "device": 5,
+              "connected": true,
+              "connection": {
+                "turnConfigured": false
+              }
+            }
+          ]
+        },
+        "offlineOutboxes": 5,
+        "remoteReturnedAndReceipted": 5,
+        "returnedModels": 6,
+        "localParticipated": true,
+        "noScientificPayloadOnRelay": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Protein-only PDB preparation, visible caution and native-rescored WASM Score",
+  "sourceSha256": "a1b4fae26f7a0e9d17e3adb3cc163004bbc76f74f84255e1409379d309530a01",
+  "measurements": {
+    "checkedAt": "2026-10-13T08:11:41.939Z",
+    "passed": true,
+    "extensionVersion": "0.5.3",
+    "originalSha256": "6cc9841b8d0411153de960f0a11b05c84fa5978e2303a619c66b2b07fc36d2ed",
+    "preparedSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+    "preparation": {
+      "totalModels": 1,
+      "duplicateAtomsRemoved": 0,
+      "waterAtomsRemoved": 1,
+      "nonProteinRemoved": [
+        {
+          "residues": 1,
+          "atoms": 1
+        },
+        {
+          "residues": 1,
+          "atoms": 1
+        },
+        {
+          "residues": 1,
+          "atoms": 1
+        }
+      ],
+      "linkRecordsRemoved": 2,
+      "conectReferencesRemoved": 3,
+      "canonicalAtomRecordsConverted": 0,
+      "normalizedText": false
+    },
+    "summary": {
+      "residues": 20,
+      "atoms": 304
+    },
+    "nativeInputEnergy": 32.33483681374909,
+    "browsers": [
+      {
+        "target": "chrome",
+        "version": "153.0.8010.54",
+        "passed": true,
+        "visibleCaution": true,
+        "exactOriginalDownload": true,
+        "originalAndPreparedRetained": true,
+        "protocol": "score",
+        "wasmEnergy": 32.33483681375084,
+        "nativeOutputEnergy": 32.33483681374909,
+        "outputSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e",
+        "elapsedMs": 92201
+      },
+      {
+        "target": "brave",
+        "version": "155.0.8059.40",
+        "passed": true,
+        "visibleCaution": true,
+        "exactOriginalDownload": true,
+        "originalAndPreparedRetained": true,
+        "protocol": "score",
+        "wasmEnergy": 32.33483681375084,
+        "nativeOutputEnergy": 32.33483681374909,
+        "outputSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e",
+        "elapsedMs": 92151
+      }
+    ]
+  }
+}

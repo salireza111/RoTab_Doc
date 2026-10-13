@@ -1,0 +1,116 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Eight coordinate protocols / Chrome",
+  "sourceSha256": "f80d771167ab58baabd6fd3f02b024136ebd4a9f43d179f82e9cc7053abf2fc8",
+  "measurements": {
+    "browserTarget": "chrome",
+    "engineId": "rosetta-protocols-v2",
+    "passed": true,
+    "nondefaultVmFlags": false,
+    "measurements": [
+      {
+        "protocol": "score",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": 32.33483681375084,
+        "nativeEnergy": 32.33483681374909,
+        "elapsedMs": 198494.889334,
+        "heapBytes": 231997440,
+        "snapshots": 2,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "relax",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -48.17565422427388,
+        "nativeEnergy": -48.17565422424631,
+        "elapsedMs": 30685.004625,
+        "heapBytes": 231997440,
+        "snapshots": 46,
+        "minimizingSnapshots": 18,
+        "packingSnapshots": 4,
+        "passed": true
+      },
+      {
+        "protocol": "minimize",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -15.259485313921246,
+        "nativeEnergy": -15.259485313938908,
+        "elapsedMs": 25731.358125,
+        "heapBytes": 231997440,
+        "snapshots": 8,
+        "minimizingSnapshots": 6,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "repack",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -16.583814781746845,
+        "nativeEnergy": -16.583814781752224,
+        "elapsedMs": 22480.546209000022,
+        "heapBytes": 231997440,
+        "snapshots": 3,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 1,
+        "passed": true
+      },
+      {
+        "protocol": "fixed_backbone_design",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -34.49501374188551,
+        "nativeEnergy": -34.49501374188374,
+        "elapsedMs": 295411.63758300006,
+        "heapBytes": 278396928,
+        "snapshots": 6,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 4,
+        "passed": true
+      },
+      {
+        "protocol": "fastdesign",
+        "inputSha256": "cf8abbf574a14fb34fe4c891a07e86f2d542131440c7ca565573ff8cdbf4fbee",
+        "energy": -14.135587822283776,
+        "nativeEnergy": -14.135587822278783,
+        "elapsedMs": 480940.06929200003,
+        "heapBytes": 278396928,
+        "snapshots": 41,
+        "minimizingSnapshots": 4,
+        "packingSnapshots": 13,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_minimize",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -27.521237856007076,
+        "nativeEnergy": -27.521237855945188,
+        "elapsedMs": 38860.46824999992,
+        "heapBytes": 278396928,
+        "snapshots": 56,
+        "minimizingSnapshots": 54,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_relax",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "energy": -54.08131283443628,
+        "nativeEnergy": -54.08131283443857,
+        "elapsedMs": 59225.383374999976,
+        "heapBytes": 278396928,
+        "snapshots": 164,
+        "minimizingSnapshots": 136,
+        "packingSnapshots": 4,
+        "passed": true
+      }
+    ],
+    "chromiumVersion": "153.0.8010.54",
+    "liveView": {
+      "seededResultUnchanged": true,
+      "minimizingSnapshots": 18,
+      "packingSnapshots": 4
+    },
+    "unknownProtocolRejected": true
+  }
+}

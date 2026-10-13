@@ -1,0 +1,63 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "October 11 network recovery / mixed-scope recording probe",
+  "sourceSha256": "ec81acb7252c6b10787dabee76ff83ea52fa7ed7c0639be160c3cc2c32732399",
+  "measurements": {
+    "checkedAt": "2026-10-11T21:41:07Z",
+    "passed": true,
+    "unitTests": {
+      "passed": 260,
+      "skipped": 1
+    },
+    "typecheckPassed": true,
+    "buildPassed": true,
+    "network": [
+      {
+        "checkedAt": "2026-10-11T21:37:01.516Z",
+        "passed": true,
+        "assignedDevices": 6,
+        "offlineOutboxes": 5,
+        "remoteReturnedAndReceipted": 5,
+        "returnedModels": 6,
+        "localParticipated": true,
+        "noScientificPayloadOnRelay": true
+      },
+      {
+        "checkedAt": "2026-10-11T21:40:01.047Z",
+        "passed": true,
+        "browser": "brave",
+        "browserVersion": "155.0.8059.40",
+        "assignedDevices": 6,
+        "offlineOutboxes": 5,
+        "remoteReturnedAndReceipted": 5,
+        "returnedModels": 6,
+        "localParticipated": true,
+        "noScientificPayloadOnRelay": true
+      }
+    ],
+    "snapshotRecording": {
+      "checkedAt": "2026-10-11T21:31:22.670Z",
+      "passed": false,
+      "runs": [
+        {
+          "protocol": "score",
+          "snapshots": 1,
+          "sources": {
+            "initial": 1
+          },
+          "energySamples": [
+            32.33536185521852
+          ],
+          "maxHeapBytes": 231997440,
+          "coloredResidues": 20
+        }
+      ]
+    },
+    "readOnlyPublicRelayProbe": {
+      "writesTested": false
+    },
+    "lowIntensityProbe": {
+      "passed": false
+    }
+  }
+}

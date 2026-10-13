@@ -1,0 +1,276 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Protocol capability audit",
+  "sourceSha256": "5c6b2a13e44999cbfe728e6699e901c97a2e32a34f1d7ab35771d44485453ed0",
+  "measurements": {
+    "officialBoincCompatible": false,
+    "officialCreditsEarned": false,
+    "bounded": {
+      "present": true,
+      "bytes": 146308274,
+      "files": [
+        {
+          "bytes": 473285,
+          "sha256": "8e7e070cb0cf8d252d7f7f696c1ce9eaff6d10840fbab7b21dbfcc202de25658"
+        },
+        {
+          "bytes": 117683793,
+          "sha256": "4f1370aa3a4f0455344f51a736a1aa991a7e63005663fa413fb875c90352539e"
+        },
+        {
+          "bytes": 28151196,
+          "sha256": "c3ede09e4c3f652f36d0661e12007fcf1d87cde8ecf9e47f0a02aba1873c9d8a"
+        }
+      ],
+      "engineId": "rosetta-protocols-v2",
+      "protocols": [
+        {
+          "id": "score",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "relax",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "minimize",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "repack",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "fixed_backbone_design",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "fastdesign",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "cartesian_minimize",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        },
+        {
+          "id": "cartesian_relax",
+          "implemented": true,
+          "nativeWasmValidated": true,
+          "chromeValidated": true,
+          "braveValidated": true,
+          "packaged": true
+        }
+      ],
+      "recoveryValidated": true,
+      "inputPolicy": {
+        "chains": 1
+      }
+    },
+    "cyclicFamily": {
+      "present": true,
+      "bytes": 154392541,
+      "files": [
+        {
+          "bytes": 475349,
+          "sha256": "28e34c9ae3bdd14bdd9bb83ce4edb88f0e916ce1fc85f6bd98025058283620ae"
+        },
+        {
+          "bytes": 125765996,
+          "sha256": "605576738d8ce41a8e7888204c6762428b9fd85960b24db545330ee40845d994"
+        },
+        {
+          "bytes": 28151196,
+          "sha256": "c3ede09e4c3f652f36d0661e12007fcf1d87cde8ecf9e47f0a02aba1873c9d8a"
+        }
+      ],
+      "withinPackageGate": true,
+      "nativeRescoredWasmFixture": true,
+      "browserValidated": false,
+      "volunteerEnabled": false
+    },
+    "application": {
+      "present": true,
+      "bytes": 455406615,
+      "files": [
+        {
+          "bytes": 653004,
+          "sha256": "5821c585663d04183aced87e795f5dbdb994d16aa452b54b6f79b2892958897b"
+        },
+        {
+          "bytes": 426602415,
+          "sha256": "b62cb106bb897ea8ad3f21974559826a9f51ab3aefac18867f87e83bec6ff1a6"
+        },
+        {
+          "bytes": 28151196,
+          "sha256": "c3ede09e4c3f652f36d0661e12007fcf1d87cde8ecf9e47f0a02aba1873c9d8a"
+        }
+      ],
+      "volunteerEnabled": false,
+      "withinPackageGate": false,
+      "dispatch": [
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": true,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "id": "relax",
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        },
+        {
+          "sourceBranchPresent": true,
+          "wasmBuildPresent": true,
+          "nativeRescoredWasmFixture": false,
+          "browserValidated": false,
+          "volunteerEnabled": false
+        }
+      ]
+    }
+  }
+}

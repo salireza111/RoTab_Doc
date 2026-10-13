@@ -1,0 +1,468 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Standalone chrome relax",
+  "sourceSha256": "107d5646b227367096e1eade6dec875ffe1d8a4c4ecbae8e8da4ee94368670b2",
+  "measurements": {
+    "result": {
+      "energy": -48.17565422427388,
+      "protocol": "relax",
+      "scoreFunction": "ref2015",
+      "objectiveEnergy": -48.18473656245057,
+      "objectiveScoreFunction": "ref2015",
+      "activeMs": 11825.99999973178,
+      "sleepingMs": 4310.400000274181,
+      "yields": 203,
+      "liveSnapshots": 48,
+      "minimizerEvaluations": 122,
+      "packingMoves": 27343,
+      "heapBytes": 231997440,
+      "provenance": {
+        "engineId": "rosetta-protocols-v2",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "outputSha256": "f3acbc6609675a614393061cc5040c690524fea58a70d916ccf70f14a37e31c9",
+        "seed": 17,
+        "dutyCycle": 75
+      },
+      "timing": {
+        "initializationMs": 0,
+        "calculationMs": 16138,
+        "totalMs": 16138.90000000596
+      }
+    },
+    "snapshots": [
+      {
+        "energy": 32.33536185521852,
+        "progress": 0,
+        "source": "initial",
+        "sequence": 1,
+        "iteration": 0,
+        "timestamp": 1791653744533,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33536185521852,
+        "progress": 0,
+        "source": "stage",
+        "sequence": 2,
+        "iteration": 0,
+        "timestamp": 1791653744664,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33536185521852,
+        "progress": 0.045454545454545456,
+        "source": "stage",
+        "sequence": 3,
+        "iteration": 0,
+        "timestamp": 1791653744841,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33536185521852,
+        "progress": 0.09090909090909091,
+        "source": "stage",
+        "sequence": 4,
+        "iteration": 0,
+        "timestamp": 1791653744922,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33536185521852,
+        "progress": 0.13636363636363635,
+        "source": "stage",
+        "sequence": 5,
+        "iteration": 0,
+        "timestamp": 1791653745006,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 423.66487063190493,
+        "progress": 0.13636363636363635,
+        "source": "packing",
+        "sequence": 6,
+        "iteration": 320,
+        "timestamp": 1791653748315,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 6.511245825834719,
+        "progress": 0.18181818181818182,
+        "source": "stage",
+        "sequence": 7,
+        "iteration": 0,
+        "timestamp": 1791653748485,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 6.511245825834719,
+        "progress": 0.22727272727272727,
+        "source": "stage",
+        "sequence": 8,
+        "iteration": 0,
+        "timestamp": 1791653748580,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 5.678310856259075,
+        "progress": 0.22727272727272727,
+        "source": "minimizing",
+        "sequence": 9,
+        "iteration": 2,
+        "timestamp": 1791653748869,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -8.316486248208191,
+        "progress": 0.2727272727272727,
+        "source": "stage",
+        "sequence": 10,
+        "iteration": 0,
+        "timestamp": 1791653749097,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -8.316486248208191,
+        "progress": 0.3181818181818182,
+        "source": "stage",
+        "sequence": 11,
+        "iteration": 0,
+        "timestamp": 1791653749296,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -8.316486248208191,
+        "progress": 0.36363636363636365,
+        "source": "stage",
+        "sequence": 12,
+        "iteration": 0,
+        "timestamp": 1791653749427,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 1695.9571691261528,
+        "progress": 0.36363636363636365,
+        "source": "packing",
+        "sequence": 13,
+        "iteration": 7648,
+        "timestamp": 1791653751796,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -8.335134851886838,
+        "progress": 0.4090909090909091,
+        "source": "stage",
+        "sequence": 14,
+        "iteration": 0,
+        "timestamp": 1791653751935,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -8.335134851886838,
+        "progress": 0.45454545454545453,
+        "source": "stage",
+        "sequence": 15,
+        "iteration": 0,
+        "timestamp": 1791653751998,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -17.4142069499306,
+        "progress": 0.45454545454545453,
+        "source": "minimizing",
+        "sequence": 16,
+        "iteration": 7,
+        "timestamp": 1791653752255,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -26.59652439069907,
+        "progress": 0.45454545454545453,
+        "source": "minimizing",
+        "sequence": 17,
+        "iteration": 13,
+        "timestamp": 1791653752506,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -32.66587108866847,
+        "progress": 0.45454545454545453,
+        "source": "minimizing",
+        "sequence": 18,
+        "iteration": 19,
+        "timestamp": 1791653752774,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -35.738360236815126,
+        "progress": 0.5,
+        "source": "stage",
+        "sequence": 19,
+        "iteration": 0,
+        "timestamp": 1791653753030,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -35.738360236815126,
+        "progress": 0.5454545454545454,
+        "source": "stage",
+        "sequence": 20,
+        "iteration": 0,
+        "timestamp": 1791653753109,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -35.738360236815126,
+        "progress": 0.5909090909090909,
+        "source": "stage",
+        "sequence": 21,
+        "iteration": 0,
+        "timestamp": 1791653753203,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 35.35771682643751,
+        "progress": 0.5909090909090909,
+        "source": "packing",
+        "sequence": 22,
+        "iteration": 14592,
+        "timestamp": 1791653754146,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -35.94553317673527,
+        "progress": 0.6363636363636364,
+        "source": "stage",
+        "sequence": 23,
+        "iteration": 0,
+        "timestamp": 1791653754272,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -35.94553317673527,
+        "progress": 0.6818181818181818,
+        "source": "stage",
+        "sequence": 24,
+        "iteration": 0,
+        "timestamp": 1791653754340,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -36.50518553907417,
+        "progress": 0.7272727272727273,
+        "source": "stage",
+        "sequence": 25,
+        "iteration": 0,
+        "timestamp": 1791653754570,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -36.50518553907417,
+        "progress": 0.7727272727272727,
+        "source": "stage",
+        "sequence": 26,
+        "iteration": 0,
+        "timestamp": 1791653754631,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -36.50518553907417,
+        "progress": 0.8181818181818182,
+        "source": "stage",
+        "sequence": 27,
+        "iteration": 0,
+        "timestamp": 1791653754691,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 1412.6027094526873,
+        "progress": 0.8181818181818182,
+        "source": "packing",
+        "sequence": 28,
+        "iteration": 21504,
+        "timestamp": 1791653755670,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -36.50518553907417,
+        "progress": 0.8636363636363636,
+        "source": "stage",
+        "sequence": 29,
+        "iteration": 0,
+        "timestamp": 1791653755805,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -37.35858494750142,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 30,
+        "iteration": 27,
+        "timestamp": 1791653756057,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -40.769330877358236,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 31,
+        "iteration": 33,
+        "timestamp": 1791653756344,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -42.628779605901016,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 32,
+        "iteration": 38,
+        "timestamp": 1791653756605,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -44.51626035963407,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 33,
+        "iteration": 43,
+        "timestamp": 1791653756884,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -45.49769460697486,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 34,
+        "iteration": 49,
+        "timestamp": 1791653757134,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -46.07575482034936,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 35,
+        "iteration": 56,
+        "timestamp": 1791653757381,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -47.20919208640221,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 36,
+        "iteration": 63,
+        "timestamp": 1791653757624,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -47.55439083070744,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 37,
+        "iteration": 69,
+        "timestamp": 1791653757921,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -47.73038729083646,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 38,
+        "iteration": 75,
+        "timestamp": 1791653758200,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -47.94825653811366,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 39,
+        "iteration": 82,
+        "timestamp": 1791653758465,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.058931720012396,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 40,
+        "iteration": 89,
+        "timestamp": 1791653758709,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.08782547690299,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 41,
+        "iteration": 94,
+        "timestamp": 1791653758966,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.11128431135552,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 42,
+        "iteration": 101,
+        "timestamp": 1791653759233,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.1284238612842,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 43,
+        "iteration": 108,
+        "timestamp": 1791653759488,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.15509806385743,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 44,
+        "iteration": 114,
+        "timestamp": 1791653759749,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.17665642491011,
+        "progress": 0.8636363636363636,
+        "source": "minimizing",
+        "sequence": 45,
+        "iteration": 120,
+        "timestamp": 1791653760019,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.18473656245059,
+        "progress": 0.9090909090909091,
+        "source": "stage",
+        "sequence": 46,
+        "iteration": 0,
+        "timestamp": 1791653760235,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.18473656245059,
+        "progress": 0.9545454545454546,
+        "source": "stage",
+        "sequence": 47,
+        "iteration": 0,
+        "timestamp": 1791653760312,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -48.17565422427388,
+        "progress": 1,
+        "source": "final",
+        "sequence": 48,
+        "iteration": 0,
+        "timestamp": 1791653760516,
+        "heapBytes": 231997440
+      }
+    ],
+    "nativeEnergy": -48.17565422424631
+  }
+}

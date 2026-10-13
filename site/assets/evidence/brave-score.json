@@ -1,0 +1,54 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Standalone brave score",
+  "sourceSha256": "3ac062301c4a59faa509adb3b37ee7bf238c28246d4e58ee66ddee69d98cbe86",
+  "measurements": {
+    "result": {
+      "energy": 32.33483681375084,
+      "protocol": "score",
+      "scoreFunction": "ref2015",
+      "objectiveEnergy": 32.33536185521852,
+      "objectiveScoreFunction": "ref2015",
+      "activeMs": 89052.29999995232,
+      "sleepingMs": 29703.800000041723,
+      "yields": 4,
+      "liveSnapshots": 2,
+      "minimizerEvaluations": 0,
+      "packingMoves": 0,
+      "heapBytes": 231997440,
+      "provenance": {
+        "engineId": "rosetta-protocols-v2",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "outputSha256": "e6e0704465b6c58d4d3b6d44cfe4226c2e126ef911406bdbf0681b1d157b103f",
+        "seed": 17,
+        "dutyCycle": 75
+      },
+      "timing": {
+        "initializationMs": 2542.300000011921,
+        "calculationMs": 119955.19999998808,
+        "totalMs": 122499.80000001192
+      }
+    },
+    "snapshots": [
+      {
+        "energy": 32.33536185521852,
+        "progress": 0,
+        "source": "initial",
+        "sequence": 1,
+        "iteration": 0,
+        "timestamp": 1791653683332,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33483681375084,
+        "progress": 1,
+        "source": "final",
+        "sequence": 2,
+        "iteration": 0,
+        "timestamp": 1791653708272,
+        "heapBytes": 231997440
+      }
+    ],
+    "nativeEnergy": 32.33483681374909
+  }
+}

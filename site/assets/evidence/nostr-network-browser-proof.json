@@ -1,0 +1,116 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Nostr-discovered scientific delivery",
+  "sourceSha256": "3dd9aa712cb15e8e1ca2fa5192bf576577ee417c1d44a0b6721eef8a79c7f8ea",
+  "measurements": {
+    "checkedAt": "2026-10-12T22:30:29.604Z",
+    "passed": true,
+    "extensionVersion": "0.5.2",
+    "nativeScorerSha256": "ee0386da95fab8d17f5ff4a77274337f2c0b8691199a047c9223b948c017e675",
+    "forcedTurn": true,
+    "browsers": [
+      {
+        "browser": "chrome",
+        "passed": true,
+        "models": [
+          {
+            "index": 0,
+            "seed": 17,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 1,
+            "seed": 18,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 2,
+            "seed": 19,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 3,
+            "seed": 20,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          }
+        ],
+        "chromiumVersion": "153.0.8010.54",
+        "returnedModels": 4,
+        "distinctVolunteers": 2,
+        "noPlaintextScientificOrSignalingPayloadOnRelay": true,
+        "observedOutgoingEvents": 160
+      },
+      {
+        "browser": "brave",
+        "passed": true,
+        "models": [
+          {
+            "index": 0,
+            "seed": 17,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 1,
+            "seed": 18,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 2,
+            "seed": 19,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          },
+          {
+            "index": 3,
+            "seed": 20,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "reportedEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "independentlyRescored": true
+          }
+        ],
+        "chromiumVersion": "155.0.8059.40",
+        "returnedModels": 4,
+        "distinctVolunteers": 2,
+        "noPlaintextScientificOrSignalingPayloadOnRelay": true,
+        "observedOutgoingEvents": 163
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Interface and transport checks",
+  "sourceSha256": "eef6b6bed389c6b7f392b41ef4ccdf9dd97b3e376c75ac13a6ff0228412fab67",
+  "measurements": {
+    "checkedAt": "2026-10-11T18:06:22.945Z",
+    "passed": true,
+    "browsers": [
+      {
+        "browser": "chrome",
+        "passed": true,
+        "chromiumVersion": "153.0.8010.54",
+        "oneClickVolunteer": true,
+        "publisherAndTwoVolunteers": true,
+        "fourFixtureAttempts": true,
+        "liveProgress": true,
+        "realWasmScoreAttempts": 0,
+        "actualWorkers": [
+          0,
+          0,
+          0
+        ],
+        "mainTabNavigation": true,
+        "histidineOwnerStatusAndNeutralLinked": true,
+        "histidineBesideWordmark": true,
+        "histidineBesideDashboardSidebarWordmark": true,
+        "sharedHeaderHistidineStatusWithoutDot": true,
+        "linkedTabVolunteerControl": true,
+        "wordmarkAndNoToolbarFlask": true,
+        "okButtons": true,
+        "relocatedDemoAndLocalIdleIndicators": true,
+        "searchSuggestionOptInAndKeyboard": true,
+        "publicScientificPayloads": false,
+        "faviconOwnershipHandover": true
+      },
+      {
+        "browser": "brave",
+        "passed": true,
+        "chromiumVersion": "155.0.8059.40",
+        "oneClickVolunteer": true,
+        "publisherAndTwoVolunteers": true,
+        "fourFixtureAttempts": true,
+        "liveProgress": true,
+        "realWasmScoreAttempts": 0,
+        "actualWorkers": [
+          0,
+          0,
+          0
+        ],
+        "mainTabNavigation": true,
+        "histidineOwnerStatusAndNeutralLinked": true,
+        "histidineBesideWordmark": true,
+        "histidineBesideDashboardSidebarWordmark": true,
+        "sharedHeaderHistidineStatusWithoutDot": true,
+        "linkedTabVolunteerControl": true,
+        "wordmarkAndNoToolbarFlask": true,
+        "okButtons": true,
+        "relocatedDemoAndLocalIdleIndicators": true,
+        "searchSuggestionOptInAndKeyboard": true,
+        "publicScientificPayloads": false,
+        "faviconOwnershipHandover": true
+      }
+    ]
+  }
+}

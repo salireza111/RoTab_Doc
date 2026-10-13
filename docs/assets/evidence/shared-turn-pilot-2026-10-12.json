@@ -1,0 +1,43 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Shared-TURN 0.5.2 pilot defaults, upgrade and encrypted relay checks",
+  "sourceSha256": "8b659793af1eb9faba412d3dc5c2d99a81bf6a2fb002a6ece81af4918a778479",
+  "measurements": {
+    "checkedAt": "2026-10-12T22:30:29.530Z",
+    "passed": true,
+    "browsers": [
+      {
+        "name": "chrome",
+        "version": "153.0.8010.54",
+        "preflight": true,
+        "preflightMs": 483,
+        "channel": {
+          "passed": true
+        },
+        "settingsMigration": {
+          "upgradedWithoutManualEntry": true,
+          "disabledDiscoveryAndComputeChoicePreserved": true,
+          "customTurnPreserved": true,
+          "clearedTurnStaysDisabledAfterReload": true
+        }
+      },
+      {
+        "name": "brave",
+        "version": "155.0.8059.40",
+        "preflight": true,
+        "preflightMs": 399,
+        "channel": {
+          "passed": true
+        },
+        "settingsMigration": {
+          "upgradedWithoutManualEntry": true,
+          "disabledDiscoveryAndComputeChoicePreserved": true,
+          "customTurnPreserved": true,
+          "clearedTurnStaysDisabledAfterReload": true
+        }
+      }
+    ],
+    "bundledDefaults": true,
+    "extensionVersion": "0.5.2"
+  }
+}

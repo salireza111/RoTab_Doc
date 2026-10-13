@@ -1,0 +1,32 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Unresolved native cyclic control discrepancy",
+  "sourceSha256": "66bd6bae55c1e0929bca5fb12334d005228453cb732cb6fefb95a063bb1133e5",
+  "measurements": {
+    "passed": false,
+    "silentSha256": "209e6b95fd5b8f0af52773440155f7bd14e13a31edf5dfb117f48d9963ced26d",
+    "models": [
+      {
+        "storedEnergy": 9.826000213623047,
+        "nativeReimportEnergy": 55.38302223156857,
+        "residues": 8,
+        "tolerance": 0.001,
+        "passed": false
+      },
+      {
+        "storedEnergy": 57.26300048828125,
+        "nativeReimportEnergy": 57.26337681412414,
+        "residues": 8,
+        "tolerance": 0.001,
+        "passed": true
+      },
+      {
+        "storedEnergy": 12.166999816894531,
+        "nativeReimportEnergy": 12.167047782619541,
+        "residues": 8,
+        "tolerance": 0.001,
+        "passed": true
+      }
+    ]
+  }
+}

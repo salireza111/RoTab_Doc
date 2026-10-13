@@ -1,0 +1,364 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Multicore recovery, scientific snapshots and worker release",
+  "sourceSha256": "8c0740205918b14fe41e5aa84df0d569f60035591e504aa8b989968959e3baec",
+  "measurements": {
+    "checkedAt": "2026-10-12T22:30:29.601Z",
+    "engineId": "rosetta-protocols-v2",
+    "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+    "passed": true,
+    "browsers": [
+      {
+        "target": "chrome",
+        "browserVersion": "153.0.8010.54",
+        "defaultWorkerCount": 1,
+        "configuredWorkerCount": 4,
+        "conservativeDefaultVerified": true,
+        "stagedStartup": true,
+        "tenTabsOneOwner": true,
+        "maxActiveWorkers": 2,
+        "maxMeasuredWorkers": 2,
+        "maxWorkerHeapBytes": 231997440,
+        "maxAggregateAllocatedHeapBytes": 366215168,
+        "workerStarts": 9,
+        "snapshots": 246,
+        "pausedWithCompletedModels": 1,
+        "activeOwnerHandover": true,
+        "completedModelPreservedWithoutReplay": true,
+        "modelIdentitiesAndSeedsPreserved": true,
+        "savedModels": [
+          {
+            "modelIndex": 0,
+            "seed": 17,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 138569,
+            "execution": {
+              "parallelism": 1,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 1,
+            "seed": 18,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 195439,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 2,
+            "seed": 19,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 189133,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 3,
+            "seed": 20,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 198890,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          }
+        ],
+        "allOutputsEmbeddedAndHashedInExport": true,
+        "restoredOnReload": true,
+        "retainedSnapshots": {
+          "everyExportedFrameHasMatchingHashAndHistoryEnergy": true,
+          "frameCountAndMemoryLimitsVerified": true,
+          "minimizeReplay": {
+            "savedFrames": 9,
+            "savedHistorySamples": 9,
+            "firstSequence": 1,
+            "lastSequence": 9,
+            "alignedRmsd": 0.8230221676596094,
+            "graphSelectionAndKeyboardSeekVerified": true
+          },
+          "liveInspection": {
+            "firstSequence": 1,
+            "selectedSequence": 4,
+            "alignedRmsd": 0,
+            "displayHeldSelectionWhileScientificCallbacksContinued": true
+          },
+          "linkedTab": {
+            "savedFrames": 92,
+            "receivedResets": 4
+          },
+          "relaxationReplay": {
+            "savedFrames": 92,
+            "savedHistorySamples": 92,
+            "firstSequence": 1,
+            "lastSequence": 92,
+            "alignedRmsd": 0.46263615548544096,
+            "graphSelectionAndKeyboardSeekVerified": true
+          }
+        },
+        "callbackTiming": [
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 107011,
+            "runningPhaseToFirstSnapshotMs": 106497,
+            "maxSnapshotGapMs": 29673,
+            "scientificSnapshots": 9
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 129858,
+            "runningPhaseToFirstSnapshotMs": 129590,
+            "maxSnapshotGapMs": 35843,
+            "scientificSnapshots": 40
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 144271,
+            "runningPhaseToFirstSnapshotMs": 143352,
+            "maxSnapshotGapMs": 28453,
+            "scientificSnapshots": 29
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 143798,
+            "runningPhaseToFirstSnapshotMs": 143614,
+            "maxSnapshotGapMs": 39949,
+            "scientificSnapshots": 29
+          },
+          {
+            "protocol": "relax",
+            "workerCreationToFirstSnapshotMs": 140674,
+            "runningPhaseToFirstSnapshotMs": 133664,
+            "maxSnapshotGapMs": 38016,
+            "scientificSnapshots": 92
+          },
+          {
+            "protocol": "relax",
+            "workerCreationToFirstSnapshotMs": 145254,
+            "runningPhaseToFirstSnapshotMs": 144307,
+            "maxSnapshotGapMs": 38369,
+            "scientificSnapshots": 47
+          }
+        ],
+        "relaxation": {
+          "protocol": "relax",
+          "parallelism": 2,
+          "dutyCycle": 75,
+          "wallMs": 337365.2973330001,
+          "modelsPerHour": 21.341851271955697,
+          "models": [
+            {
+              "seed": 17,
+              "outputSha256": "1a8c2e656c9b48024d4226b31082e9d2d042ca2aa37cb73d8c7e6720c1cea6a8",
+              "wasmEnergy": -48.17565422427388,
+              "nativeEnergy": -48.17565422424631,
+              "elapsedMs": 233936
+            },
+            {
+              "seed": 18,
+              "outputSha256": "1a8c2e656c9b48024d4226b31082e9d2d042ca2aa37cb73d8c7e6720c1cea6a8",
+              "wasmEnergy": -48.17565422427388,
+              "nativeEnergy": -48.17565422424631,
+              "elapsedMs": 194156
+            }
+          ]
+        },
+        "scientificServerRequests": 0,
+        "allExternalRequestsBlocked": true,
+        "workerMemoryClearedOnPauseAndCompletion": true
+      },
+      {
+        "target": "brave",
+        "browserVersion": "155.0.8059.40",
+        "defaultWorkerCount": 1,
+        "configuredWorkerCount": 4,
+        "conservativeDefaultVerified": true,
+        "stagedStartup": true,
+        "tenTabsOneOwner": true,
+        "maxActiveWorkers": 2,
+        "maxMeasuredWorkers": 2,
+        "maxWorkerHeapBytes": 231997440,
+        "maxAggregateAllocatedHeapBytes": 366215168,
+        "workerStarts": 9,
+        "snapshots": 146,
+        "pausedWithCompletedModels": 1,
+        "activeOwnerHandover": true,
+        "completedModelPreservedWithoutReplay": true,
+        "modelIdentitiesAndSeedsPreserved": true,
+        "savedModels": [
+          {
+            "modelIndex": 0,
+            "seed": 17,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 105188,
+            "execution": {
+              "parallelism": 1,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 1,
+            "seed": 18,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 118498,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 2,
+            "seed": 19,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 125093,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          },
+          {
+            "modelIndex": 3,
+            "seed": 20,
+            "protocol": "minimize",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "wasmEnergy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "elapsedMs": 104805,
+            "execution": {
+              "parallelism": 4,
+              "dutyCycle": 75
+            }
+          }
+        ],
+        "allOutputsEmbeddedAndHashedInExport": true,
+        "restoredOnReload": true,
+        "retainedSnapshots": {
+          "everyExportedFrameHasMatchingHashAndHistoryEnergy": true,
+          "frameCountAndMemoryLimitsVerified": true,
+          "minimizeReplay": {
+            "savedFrames": 10,
+            "savedHistorySamples": 10,
+            "firstSequence": 1,
+            "lastSequence": 10,
+            "alignedRmsd": 0.8230221676596094,
+            "graphSelectionAndKeyboardSeekVerified": true
+          },
+          "liveInspection": {
+            "firstSequence": 1,
+            "selectedSequence": 5,
+            "alignedRmsd": 0,
+            "displayHeldSelectionWhileScientificCallbacksContinued": true
+          },
+          "linkedTab": {
+            "savedFrames": 47,
+            "receivedResets": 4
+          },
+          "relaxationReplay": {
+            "savedFrames": 47,
+            "savedHistorySamples": 47,
+            "firstSequence": 1,
+            "lastSequence": 47,
+            "alignedRmsd": 0.46263615548544096,
+            "graphSelectionAndKeyboardSeekVerified": true
+          }
+        },
+        "callbackTiming": [
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 81456,
+            "runningPhaseToFirstSnapshotMs": 81105,
+            "maxSnapshotGapMs": 21485,
+            "scientificSnapshots": 10
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 86553,
+            "runningPhaseToFirstSnapshotMs": 85430,
+            "maxSnapshotGapMs": 22887,
+            "scientificSnapshots": 24
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 94081,
+            "runningPhaseToFirstSnapshotMs": 93884,
+            "maxSnapshotGapMs": 26064,
+            "scientificSnapshots": 15
+          },
+          {
+            "protocol": "minimize",
+            "workerCreationToFirstSnapshotMs": 81590,
+            "runningPhaseToFirstSnapshotMs": 81452,
+            "maxSnapshotGapMs": 21840,
+            "scientificSnapshots": 7
+          },
+          {
+            "protocol": "relax",
+            "workerCreationToFirstSnapshotMs": 70980,
+            "runningPhaseToFirstSnapshotMs": 68020,
+            "maxSnapshotGapMs": 18634,
+            "scientificSnapshots": 47
+          },
+          {
+            "protocol": "relax",
+            "workerCreationToFirstSnapshotMs": 69825,
+            "runningPhaseToFirstSnapshotMs": 69689,
+            "maxSnapshotGapMs": 19149,
+            "scientificSnapshots": 43
+          }
+        ],
+        "relaxation": {
+          "protocol": "relax",
+          "parallelism": 2,
+          "dutyCycle": 75,
+          "wallMs": 170721.50020799995,
+          "modelsPerHour": 42.173949919768866,
+          "models": [
+            {
+              "seed": 17,
+              "outputSha256": "1a8c2e656c9b48024d4226b31082e9d2d042ca2aa37cb73d8c7e6720c1cea6a8",
+              "wasmEnergy": -48.17565422427388,
+              "nativeEnergy": -48.17565422424631,
+              "elapsedMs": 101945
+            },
+            {
+              "seed": 18,
+              "outputSha256": "1a8c2e656c9b48024d4226b31082e9d2d042ca2aa37cb73d8c7e6720c1cea6a8",
+              "wasmEnergy": -48.17565422427388,
+              "nativeEnergy": -48.17565422424631,
+              "elapsedMs": 98529
+            }
+          ]
+        },
+        "scientificServerRequests": 0,
+        "allExternalRequestsBlocked": true,
+        "workerMemoryClearedOnPauseAndCompletion": true
+      }
+    ],
+    "previousProofSha256": "34ac5cd549d2449cefb1fecaaff1da07df9364608b6077926f21256066536549"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Historical coordinate engine / full 20-residue FastDesign",
+  "sourceSha256": "dfed55323c4b256759b33c86d8820b9874529aecdde828bb2cd52b773a213fb9",
+  "measurements": {
+    "passed": true,
+    "measurements": [
+      {
+        "protocol": "score",
+        "nativeEnergy": 32.33483681374909,
+        "wasmEnergy": 32.33483681375084,
+        "nativeRescore": 32.33483681374909,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 101869.765,
+        "heapBytes": 231997440,
+        "snapshots": 2,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "relax",
+        "nativeEnergy": -48.16143262115862,
+        "wasmEnergy": -48.17565422427388,
+        "nativeRescore": -48.17565422424631,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 11522.513208000004,
+        "heapBytes": 231997440,
+        "snapshots": 44,
+        "minimizingSnapshots": 16,
+        "packingSnapshots": 4,
+        "passed": true
+      },
+      {
+        "protocol": "minimize",
+        "nativeEnergy": -15.225206295862034,
+        "wasmEnergy": -15.259485313921246,
+        "nativeRescore": -15.259485313938908,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 1605.1805419999873,
+        "heapBytes": 231997440,
+        "snapshots": 7,
+        "minimizingSnapshots": 5,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "repack",
+        "nativeEnergy": -16.583814781752224,
+        "wasmEnergy": -16.583814781746845,
+        "nativeRescore": -16.583814781752224,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 1120.2398749999993,
+        "heapBytes": 231997440,
+        "snapshots": 3,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 1,
+        "passed": true
+      },
+      {
+        "protocol": "fixed_backbone_design",
+        "nativeEnergy": -34.49501374188374,
+        "wasmEnergy": -34.49501374188551,
+        "nativeRescore": -34.49501374188374,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 216199.63195799998,
+        "heapBytes": 278396928,
+        "snapshots": 6,
+        "minimizingSnapshots": 0,
+        "packingSnapshots": 4,
+        "passed": true
+      },
+      {
+        "protocol": "fastdesign",
+        "nativeEnergy": -55.339711171145275,
+        "wasmEnergy": -55.2815106096772,
+        "nativeRescore": -55.281510609706906,
+        "objectiveScoreFunction": "ref2015",
+        "wasmMs": 1632396.727417,
+        "heapBytes": 278396928,
+        "snapshots": 55,
+        "minimizingSnapshots": 16,
+        "packingSnapshots": 15,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_minimize",
+        "nativeEnergy": -27.522741696856144,
+        "wasmEnergy": -27.521237856007076,
+        "nativeRescore": -27.521237855945188,
+        "objectiveScoreFunction": "ref2015_cart",
+        "wasmMs": 10088.119042000035,
+        "heapBytes": 278396928,
+        "snapshots": 39,
+        "minimizingSnapshots": 37,
+        "packingSnapshots": 0,
+        "passed": true
+      },
+      {
+        "protocol": "cartesian_relax",
+        "nativeEnergy": -53.73791950849781,
+        "wasmEnergy": -54.08131283443628,
+        "nativeRescore": -54.08131283443857,
+        "objectiveScoreFunction": "ref2015_cart",
+        "wasmMs": 37477.45054200012,
+        "heapBytes": 278396928,
+        "snapshots": 151,
+        "minimizingSnapshots": 123,
+        "packingSnapshots": 4,
+        "passed": true
+      }
+    ],
+    "peakHeapBytes": 278396928,
+    "packageBytes": 146308274,
+    "startupMs": 1267.172458,
+    "liveView": {
+      "seededResultUnchanged": true,
+      "minimizingSnapshots": 16,
+      "packingSnapshots": 4
+    }
+  }
+}

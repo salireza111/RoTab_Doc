@@ -1,0 +1,53 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Extension 0.5.1 release checks",
+  "sourceSha256": "5bf7482866244b9d945645fc5bfe6789f154b4539829a5fd81083e446b293c4b",
+  "measurements": {
+    "passed": true,
+    "extensionVersion": "0.5.1",
+    "unit": {
+      "passed": 215,
+      "skipped": 1
+    },
+    "typecheckPassed": true,
+    "buildPassed": true,
+    "formattingPassed": true,
+    "volunteerUX": {
+      "automaticWorkDefault": false,
+      "automaticPreferencePreservesConnections": true
+    },
+    "packaging": {
+      "passed": true,
+      "exactRuntimeScientificGates": true,
+      "zipIntegrityChecked": true
+    },
+    "browserUITransport": {
+      "passed": 43,
+      "initialFullRun": {
+        "passed": 41,
+        "failed": 2,
+        "durationMinutes": 11.4
+      },
+      "updatedDefaultFlowFixtures": {
+        "passed": 2,
+        "durationSeconds": 10
+      },
+      "sameFrozenRuntime": true
+    },
+    "legacyPeerScientificGate": {
+      "passed": true,
+      "realWasmModels": 4,
+      "browsers": [
+        "chrome",
+        "brave"
+      ]
+    },
+    "network": {
+      "passed": true,
+      "realWasmModels": 8,
+      "maxNativeDifferenceREU": 1.766231605415669e-11,
+      "sameComputerProfiles": true,
+      "crossNetworkFriendTestPassed": false
+    }
+  }
+}

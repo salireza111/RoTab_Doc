@@ -1,0 +1,102 @@
+site_name: RoTab documentation
+site_description: Browser computation, standalone Rosetta methods, volunteer architecture and measured scientific evidence.
+site_url: https://salireza111.github.io/RoTab_Doc/
+repo_url: https://github.com/salireza111/RoTab_Doc
+repo_name: salireza111/RoTab_Doc
+edit_uri: ""
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+strict: true
+theme:
+  name: material
+  language: en
+  logo: assets/rotab.svg
+  favicon: assets/rotab.svg
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+extra_css:
+  - assets/docs.css
+nav:
+  - Overview:
+      - Start here: index.md
+      - Current status: status.md
+      - BOINC and Rosetta: boinc.md
+      - Architecture: architecture.md
+  - Extension:
+      - Install and contribute: extension/usage.md
+      - Volunteer network: extension/network.md
+      - Connection setup architecture: extension/connections.md
+      - Job assignment and results: extension/jobs.md
+      - Browser sessions and workers: extension/sessions.md
+      - Display, recovery and resources: extension/lifecycle.md
+  - Help:
+      - Find a control: help/index.md
+      - Themes, favorites and widgets: help/personalization.md
+      - Protein and local calculations: help/calculations.md
+      - Volunteer and submit work: help/volunteering.md
+      - Connect across networks: help/turn.md
+      - Troubleshooting: help/troubleshooting.md
+  - Standalone WASM:
+      - Quick start: wasm/quickstart.md
+      - API and lifecycle: wasm/api.md
+      - Deployment and integration: wasm/hosting.md
+      - Input and output contracts: wasm/io.md
+      - Large protein memory: wasm/memory.md
+      - How the C++ port works: wasm/port.md
+      - Build and reproduce: wasm/build.md
+      - Method catalogue: wasm/methods/index.md
+      - Score: wasm/methods/score.md
+      - FastRelax: wasm/methods/relax.md
+      - Torsion minimization: wasm/methods/minimize.md
+      - Repacking: wasm/methods/repack.md
+      - Fixed-backbone design: wasm/methods/fixed-backbone-design.md
+      - FastDesign: wasm/methods/fastdesign.md
+      - Cartesian minimization: wasm/methods/cartesian-minimize.md
+      - Cartesian FastRelax: wasm/methods/cartesian-relax.md
+      - Research application modules: wasm/experimental.md
+  - Science and scope:
+      - Benchmarks: benchmarks.md
+      - Evidence inventory: evidence.md
+      - Scope and development: roadmap.md
+      - Licensing and availability: publishing.md
+      - Primary sources: references.md
+  - Privacy and participation:
+      - Data and privacy: policies/privacy.md
+      - Volunteer participation: policies/participation.md
+      - Help and security: policies/support.md

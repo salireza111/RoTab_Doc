@@ -1,0 +1,55 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Publisher participation and WASM Score delivery",
+  "sourceSha256": "21eadfd798750438b2918378b28ccfe6547b85d83fec8aee8c1d1625bd95786b",
+  "measurements": {
+    "checkedAt": "2026-10-11T16:21:01.419Z",
+    "passed": true,
+    "browsers": [
+      {
+        "browser": "chrome",
+        "passed": true,
+        "chromiumVersion": "153.0.8010.54",
+        "oneClickVolunteer": true,
+        "publisherAndTwoVolunteers": true,
+        "fourFixtureAttempts": true,
+        "liveProgress": true,
+        "realWasmScoreAttempts": 4,
+        "actualWorkers": [
+          2,
+          1,
+          1
+        ],
+        "mainTabNavigation": true,
+        "linkedTabVolunteerControl": true,
+        "wordmarkAndNoToolbarFlask": true,
+        "okButtons": true,
+        "searchSuggestionOptInAndKeyboard": true,
+        "publicScientificPayloads": false,
+        "recordSha256": "7036317c19eea685c2ea51cfe04c79550e2fa1a6fa7933d2857615132e04dacd"
+      },
+      {
+        "browser": "brave",
+        "passed": true,
+        "chromiumVersion": "155.0.8059.40",
+        "oneClickVolunteer": true,
+        "publisherAndTwoVolunteers": true,
+        "fourFixtureAttempts": true,
+        "liveProgress": true,
+        "realWasmScoreAttempts": 4,
+        "actualWorkers": [
+          1,
+          2,
+          1
+        ],
+        "mainTabNavigation": true,
+        "linkedTabVolunteerControl": true,
+        "wordmarkAndNoToolbarFlask": true,
+        "okButtons": true,
+        "searchSuggestionOptInAndKeyboard": true,
+        "publicScientificPayloads": false,
+        "recordSha256": "0df4fae14db8cabce97db302c907c901568d7757a034b37f8f006a5a67239789"
+      }
+    ]
+  }
+}

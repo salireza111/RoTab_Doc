@@ -1,0 +1,37 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Cyclic family / Node and native topology fixture",
+  "sourceSha256": "c5de5ab85f9dac8296aa726059e88a77195d25377a0d9178daf3cae65f9a7f4c",
+  "measurements": {
+    "passed": true,
+    "packageBytes": 154392541,
+    "peakHeapBytes": 231997440,
+    "inputs": [
+      {
+        "bytes": 34,
+        "sha256": "a52dcfc7d3e8b1a00acf48847d1a6abc5669b99b2bc18878d680aa2d39b8d397"
+      }
+    ],
+    "outputs": [
+      {
+        "bytes": 3457,
+        "sha256": "fb096270620eb7187ce9d004ee9137f797ab5142f4b9ea76e4dc3ceb698c2681"
+      }
+    ],
+    "startupMs": 1295.519959,
+    "exitCode": 0,
+    "elapsedMs": 429050.61912499997,
+    "models": [
+      {
+        "reportedEnergy": 10.319999694824219,
+        "nativeEnergy": 10.319698256777183,
+        "residues": 8,
+        "nToCCyclized": true,
+        "closureDistanceAngstrom": 1.3288405179353007,
+        "dAminoAcidResidues": 2,
+        "tolerance": 0.001,
+        "passed": true
+      }
+    ]
+  }
+}

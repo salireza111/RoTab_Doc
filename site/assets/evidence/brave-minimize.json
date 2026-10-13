@@ -1,0 +1,108 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Standalone brave minimize",
+  "sourceSha256": "73ba14b2e1dfac710ed30b1c17b7baaf7cd8edd12c432dd5d3dbdb33b1d10597",
+  "measurements": {
+    "result": {
+      "energy": -15.259485313921246,
+      "protocol": "minimize",
+      "scoreFunction": "ref2015",
+      "objectiveEnergy": -15.244770807357245,
+      "objectiveScoreFunction": "ref2015",
+      "activeMs": 1457.1000000238419,
+      "sleepingMs": 570.8999999761581,
+      "yields": 53,
+      "liveSnapshots": 8,
+      "minimizerEvaluations": 39,
+      "packingMoves": 0,
+      "heapBytes": 231997440,
+      "provenance": {
+        "engineId": "rosetta-protocols-v2",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "outputSha256": "35525609bf97f28a6638abe5da2dc216a59abd0625ef5f523b96335994b94c3b",
+        "seed": 17,
+        "dutyCycle": 75
+      },
+      "timing": {
+        "initializationMs": 0,
+        "calculationMs": 2029.9000000059605,
+        "totalMs": 2031.1000000238419
+      }
+    },
+    "snapshots": [
+      {
+        "energy": 32.33536185521852,
+        "progress": 0,
+        "source": "initial",
+        "sequence": 1,
+        "iteration": 0,
+        "timestamp": 1791653726656,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33536185523255,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 2,
+        "iteration": 1,
+        "timestamp": 1791653726958,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 22.173762656571856,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 3,
+        "iteration": 6,
+        "timestamp": 1791653727208,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 3.8707046018199938,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 4,
+        "iteration": 13,
+        "timestamp": 1791653727464,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -7.197017740195131,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 5,
+        "iteration": 20,
+        "timestamp": 1791653727714,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -12.133536191011617,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 6,
+        "iteration": 27,
+        "timestamp": 1791653727966,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -13.837427101630789,
+        "progress": 0,
+        "source": "minimizing",
+        "sequence": 7,
+        "iteration": 34,
+        "timestamp": 1791653728209,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": -15.259485313921246,
+        "progress": 1,
+        "source": "final",
+        "sequence": 8,
+        "iteration": 0,
+        "timestamp": 1791653728537,
+        "heapBytes": 231997440
+      }
+    ],
+    "nativeEnergy": -15.259485313938908
+  }
+}

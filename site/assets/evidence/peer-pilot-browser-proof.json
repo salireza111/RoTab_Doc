@@ -1,0 +1,993 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Direct peer calculation and delivery",
+  "sourceSha256": "b5702a2024d3f84fd7992d70fe7c0bc507db0debd30806abde227d0f73d85992",
+  "measurements": {
+    "checkedAt": "2026-10-12T22:50:41.863Z",
+    "extensionVersion": "0.5.2",
+    "engineId": "rosetta-protocols-v2",
+    "engineManifestSha256": "f04d973bdd6b8d5033e19dba7c7f27e9cd1cb8b5ca292b05d1071fd4fcc6ee48",
+    "supportedProtocols": [
+      "score",
+      "relax",
+      "minimize",
+      "repack",
+      "fixed_backbone_design",
+      "fastdesign",
+      "cartesian_minimize",
+      "cartesian_relax"
+    ],
+    "previousMulticoreProofSha256": "8c0740205918b14fe41e5aa84df0d569f60035591e504aa8b989968959e3baec",
+    "scientificProofSha256": "64811af36d8ece0ad95719f5f4e6906487ff3260336000d8eea950f6c57b56a9",
+    "nativeValidator": {
+      "binarySha256": "ee0386da95fab8d17f5ff4a77274337f2c0b8691199a047c9223b948c017e675"
+    },
+    "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+    "passed": true,
+    "browsers": [
+      {
+        "browser": "chrome",
+        "extensionVersion": "0.5.2",
+        "passed": true,
+        "results": [
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "energy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "nativeRescorePassed": true
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e",
+            "energy": 32.33483681375084,
+            "nativeEnergy": 32.33483681374909,
+            "absoluteDifference": 1.7479351299698465e-12,
+            "nativeRescorePassed": true
+          }
+        ],
+        "chromiumVersion": "153.0.8010.54",
+        "allHttpRequestsBlocked": true,
+        "workerEvents": [
+          {
+            "timestamp": 1791844273499
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791844273500
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791844273540
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791844273549
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791844275763
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791844275764
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791844296135
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791844297768
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791844299769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791844301769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791844388798
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33536185521852,
+            "heapBytes": 231997440,
+            "timestamp": 1791844388802
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844388818
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844389772
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844391764
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844393771
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844395767
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844397769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844399769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844401769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844403769
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844405768
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844407765
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844409768
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844411768
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844413768
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844415764
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791844417795
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33483681375084,
+            "heapBytes": 231997440,
+            "timestamp": 1791844417896
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33483681375084,
+            "heapBytes": 231997440,
+            "timestamp": 1791844417942,
+            "pdbSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e"
+          },
+          {
+            "timestamp": 1791844417942
+          },
+          {
+            "timestamp": 1791844418981
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791844418981
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791844419058
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791844419059
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844424155
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791844424157
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844448605
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844449839
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844451837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844453838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791844455835
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791844611144
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 32.33536185521852,
+            "heapBytes": 231997440,
+            "timestamp": 1791844611144
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844611197
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844611838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844613837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844615839
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844617839
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844619836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844621838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844623838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844625838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844627837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844629836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844631837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844633836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844635837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844637837
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844639836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844641835
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844643836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844645838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844647836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844649836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844651838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844653835
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844655834
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844657836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844659838
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844661836
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 32.33536185523255,
+            "heapBytes": 231997440,
+            "timestamp": 1791844663510
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 27.89537360084447,
+            "heapBytes": 231997440,
+            "timestamp": 1791844663808
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844663879
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 20.93654215321403,
+            "heapBytes": 231997440,
+            "timestamp": 1791844664168
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 10.407860671727628,
+            "heapBytes": 231997440,
+            "timestamp": 1791844664449
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -1.6069567601378816,
+            "heapBytes": 231997440,
+            "timestamp": 1791844664754
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -8.30702252400925,
+            "heapBytes": 231997440,
+            "timestamp": 1791844665051
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -11.603963028527158,
+            "heapBytes": 231997440,
+            "timestamp": 1791844665333
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -13.06247196914298,
+            "heapBytes": 231997440,
+            "timestamp": 1791844665601
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -14.44115957076015,
+            "heapBytes": 231997440,
+            "timestamp": 1791844665892
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791844665902
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -15.259485313921246,
+            "heapBytes": 231997440,
+            "timestamp": 1791844666368
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -15.259485313921246,
+            "heapBytes": 231997440,
+            "timestamp": 1791844666394,
+            "pdbSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70"
+          },
+          {
+            "timestamp": 1791844666395
+          }
+        ],
+        "reusedFromProofSha256": "cbb8f04e7124db38587294b17980597a5ec384e3f3125a2b9a6af093fa97c8e6"
+      },
+      {
+        "browser": "brave",
+        "extensionVersion": "0.5.2",
+        "passed": true,
+        "results": [
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70",
+            "energy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "nativeRescorePassed": true
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+            "outputSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e",
+            "energy": 32.33483681375084,
+            "nativeEnergy": 32.33483681374909,
+            "absoluteDifference": 1.7479351299698465e-12,
+            "nativeRescorePassed": true
+          }
+        ],
+        "chromiumVersion": "155.0.8059.40",
+        "allHttpRequestsBlocked": true,
+        "workerEvents": [
+          {
+            "timestamp": 1791845445392
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791845445392
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791845445412
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791845445419
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791845447311
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791845447314
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791845461753
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791845463317
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 134217728,
+            "timestamp": 1791845465318
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "timestamp": 1791845537920
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33536185521852,
+            "heapBytes": 231997440,
+            "timestamp": 1791845537921
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845537931
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845539316
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845541317
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845543318
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845545318
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845547317
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845549318
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845551316
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845553316
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845555318
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845557317
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845559315
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "heapBytes": 231997440,
+            "timestamp": 1791845561316
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33483681375084,
+            "heapBytes": 231997440,
+            "timestamp": 1791845562107
+          },
+          {
+            "protocol": "score",
+            "seed": 17,
+            "energy": 32.33483681375084,
+            "heapBytes": 231997440,
+            "timestamp": 1791845562153,
+            "pdbSha256": "94a13095543f1418455b7563bd6ed6e4e8a14f4ae4e6c53356ec8086a8fee25e"
+          },
+          {
+            "timestamp": 1791845562153
+          },
+          {
+            "timestamp": 1791845563274
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791845563274
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791845563322
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791845563323
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791845568404
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791845568408
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791845581898
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791845582404
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 134217728,
+            "timestamp": 1791845584402
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "timestamp": 1791845667077
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 32.33536185521852,
+            "heapBytes": 231997440,
+            "timestamp": 1791845667078
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845667080
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845668403
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845670403
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845672402
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845674403
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845676401
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845678404
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845680403
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845682399
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845684403
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845686400
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845688402
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845690402
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845692402
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 32.33536185523255,
+            "heapBytes": 231997440,
+            "timestamp": 1791845694371
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845694427
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 22.173762656571856,
+            "heapBytes": 231997440,
+            "timestamp": 1791845694661
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": 10.407860671727628,
+            "heapBytes": 231997440,
+            "timestamp": 1791845694924
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -1.6069567601378816,
+            "heapBytes": 231997440,
+            "timestamp": 1791845695175
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -8.902420467656563,
+            "heapBytes": 231997440,
+            "timestamp": 1791845695448
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -12.133536191011617,
+            "heapBytes": 231997440,
+            "timestamp": 1791845695729
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -13.06247196914298,
+            "heapBytes": 231997440,
+            "timestamp": 1791845695998
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -14.44115957076015,
+            "heapBytes": 231997440,
+            "timestamp": 1791845696284
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "heapBytes": 231997440,
+            "timestamp": 1791845696412
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -15.259485313921246,
+            "heapBytes": 231997440,
+            "timestamp": 1791845696701
+          },
+          {
+            "protocol": "minimize",
+            "seed": 18,
+            "energy": -15.259485313921246,
+            "heapBytes": 231997440,
+            "timestamp": 1791845696723,
+            "pdbSha256": "f202b3d93ee36c785af37ab8f761c3268b8a2dc3a251efc7afe574679ac49a70"
+          },
+          {
+            "timestamp": 1791845696723
+          }
+        ]
+      }
+    ],
+    "resumedFrom": {
+      "sha256": "cbb8f04e7124db38587294b17980597a5ec384e3f3125a2b9a6af093fa97c8e6",
+      "reusedBrowsers": [
+        "chrome"
+      ],
+      "repeatedBrowsers": [
+        "brave"
+      ]
+    },
+    "concurrentBrowserChecks": false,
+    "multicoreBindingDeferred": true
+  }
+}

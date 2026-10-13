@@ -1,0 +1,40 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Personal widgets and documentation links",
+  "sourceSha256": "cf69f8aa8450408c42746e8aa5f06b212cb737f8249b63c943991edf0a78fbf5",
+  "measurements": {
+    "checkedAt": "2026-10-13T14:42:13.874Z",
+    "passed": true,
+    "extensionVersion": "0.5.6",
+    "browsers": [
+      {
+        "target": "chrome",
+        "version": "153.0.8010.54",
+        "passed": true,
+        "defaultOff": true,
+        "centeredWithOneOrBothSides": true,
+        "tallerSideWorkspace": true,
+        "middlePlacementRestored": true,
+        "documentationLinks": true,
+        "externalHelpTabFixture": true,
+        "localContentRestored": true,
+        "simpleViewOnly": true,
+        "scienceWorkersStarted": 0
+      },
+      {
+        "target": "brave",
+        "version": "155.0.8059.40",
+        "passed": true,
+        "defaultOff": true,
+        "centeredWithOneOrBothSides": true,
+        "tallerSideWorkspace": true,
+        "middlePlacementRestored": true,
+        "documentationLinks": true,
+        "externalHelpTabFixture": true,
+        "localContentRestored": true,
+        "simpleViewOnly": true,
+        "scienceWorkersStarted": 0
+      }
+    ]
+  }
+}

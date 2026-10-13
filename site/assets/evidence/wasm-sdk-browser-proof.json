@@ -1,0 +1,134 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Standalone SDK scientific browser checks",
+  "sourceSha256": "d8534269eff3054cc3b79fca57cb417d8f650923e1c8e492d8b29586ddfbdcf2",
+  "measurements": {
+    "passed": true,
+    "engineId": "rosetta-protocols-v2",
+    "noTaskServerStarted": true,
+    "browsers": [
+      {
+        "target": "chrome",
+        "chromiumVersion": "153.0.8010.54",
+        "passed": true,
+        "measurements": [
+          {
+            "protocol": "score",
+            "energy": 32.33483681375084,
+            "nativeEnergy": 32.33483681374909,
+            "absoluteDifference": 1.7479351299698465e-12,
+            "snapshots": 2,
+            "minimizingSnapshots": 0,
+            "packingSnapshots": 0,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 2430.199999988079,
+              "calculationMs": 117400.70000001788,
+              "totalMs": 119833.5
+            },
+            "recordSha256": "8e6313e058aed3577f04dd8732c5b765b7f58a71c9ccd6fbd14fb9f8d23cf43c",
+            "passed": true
+          },
+          {
+            "protocol": "minimize",
+            "energy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "snapshots": 8,
+            "minimizingSnapshots": 6,
+            "packingSnapshots": 0,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 0,
+              "calculationMs": 2038,
+              "totalMs": 2040.5999999940395
+            },
+            "recordSha256": "a10e978ea63e6659481e69955964c48f88825f9dcbe188593903dc5050f9bc2a",
+            "passed": true
+          },
+          {
+            "protocol": "relax",
+            "energy": -48.17565422427388,
+            "nativeEnergy": -48.17565422424631,
+            "absoluteDifference": 2.7569058147491887e-11,
+            "snapshots": 48,
+            "minimizingSnapshots": 20,
+            "packingSnapshots": 4,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 0,
+              "calculationMs": 16138,
+              "totalMs": 16138.90000000596
+            },
+            "recordSha256": "107d5646b227367096e1eade6dec875ffe1d8a4c4ecbae8e8da4ee94368670b2",
+            "passed": true
+          }
+        ],
+        "manifestMismatchRejected": true,
+        "assetMismatchRejected": true,
+        "noExternalRequests": true
+      },
+      {
+        "target": "brave",
+        "chromiumVersion": "155.0.8059.40",
+        "passed": true,
+        "measurements": [
+          {
+            "protocol": "score",
+            "energy": 32.33483681375084,
+            "nativeEnergy": 32.33483681374909,
+            "absoluteDifference": 1.7479351299698465e-12,
+            "snapshots": 2,
+            "minimizingSnapshots": 0,
+            "packingSnapshots": 0,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 2542.300000011921,
+              "calculationMs": 119955.19999998808,
+              "totalMs": 122499.80000001192
+            },
+            "recordSha256": "3ac062301c4a59faa509adb3b37ee7bf238c28246d4e58ee66ddee69d98cbe86",
+            "passed": true
+          },
+          {
+            "protocol": "minimize",
+            "energy": -15.259485313921246,
+            "nativeEnergy": -15.259485313938908,
+            "absoluteDifference": 1.766231605415669e-11,
+            "snapshots": 8,
+            "minimizingSnapshots": 6,
+            "packingSnapshots": 0,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 0,
+              "calculationMs": 2029.9000000059605,
+              "totalMs": 2031.1000000238419
+            },
+            "recordSha256": "73ba14b2e1dfac710ed30b1c17b7baaf7cd8edd12c432dd5d3dbdb33b1d10597",
+            "passed": true
+          },
+          {
+            "protocol": "relax",
+            "energy": -48.17565422427388,
+            "nativeEnergy": -48.17565422424631,
+            "absoluteDifference": 2.7569058147491887e-11,
+            "snapshots": 47,
+            "minimizingSnapshots": 19,
+            "packingSnapshots": 4,
+            "heapBytes": 231997440,
+            "timing": {
+              "initializationMs": 0,
+              "calculationMs": 15561.199999988079,
+              "totalMs": 15562.59999999404
+            },
+            "recordSha256": "ff0aaaa3d6695b9dd7d4c66a5b934e8a85acdce3307f3f62a4c8f49dca6cfe80",
+            "passed": true
+          }
+        ],
+        "manifestMismatchRejected": true,
+        "assetMismatchRejected": true,
+        "noExternalRequests": true
+      }
+    ]
+  }
+}

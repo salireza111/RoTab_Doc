@@ -1,0 +1,119 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Official executable versus WASM reference",
+  "sourceSha256": "3834b222415cafa3947fe457faa0f41ce9af61c2c8623fc5116b053c80f66ccb",
+  "measurements": {
+    "checkedAt": "2026-10-08T05:47:37.582Z",
+    "officialReference": {
+      "application": {
+        "binaryBytes": 139545596,
+        "binaryIncluded": false,
+        "binarySha256": "06605d933235c5b77523a38229e5c6a1ac05d8133a96e2666761f6b1c106582d",
+        "version": "6.04",
+        "versionNumber": 604
+      },
+      "comparison": {
+        "originalWorkunitEquivalence": false,
+        "publicationReady": false,
+        "scientificParityEstablished": false
+      },
+      "database": {
+        "archiveBytes": 418361967,
+        "archiveSha256": "7a4b5629e0697553f8393deb41ff11cb2e0386798d9226381e8a4e19fef16165",
+        "readOnly": true
+      },
+      "databaseArchiveHash": "7a4b5629e0697553f8393deb41ff11cb2e0386798d9226381e8a4e19fef16165",
+      "input": {
+        "bytes": 24628,
+        "sha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f"
+      },
+      "isolation": {
+        "boincClientControlled": false,
+        "boincConfigurationReadable": false,
+        "boincProjectDatabaseReadable": true,
+        "initDataOrAccountsCopied": false,
+        "networkAllowed": false,
+        "sourceDatabaseWritable": false,
+        "writesOutsideScratchAllowed": false
+      },
+      "officialSubmission": false,
+      "officialWorkunit": false,
+      "output": {
+        "bytes": 28645,
+        "sha256": "42004e64b9955cdab4c867e270d18966a29012f1a6abd7d71c1d3dd473f47a60"
+      },
+      "protocol": "relax",
+      "reportedEnergy": {
+        "poseEnergyTableDecimalPlaces": 4,
+        "poseEnergyTableReu": -48.1857,
+        "scoreFileDecimalPlaces": 3,
+        "scoreFileReu": -48.186
+      },
+      "scoreFunction": "ref2015",
+      "seed": 17,
+      "timing": {
+        "boincSummaryReportedCpuSeconds": 1201,
+        "cpuHardLimitSeconds": 120,
+        "cpuSoftLimitSeconds": 110,
+        "cpuSummaryReliable": false,
+        "elapsedWallSeconds": 14.818380207987502,
+        "isolatedPerformanceBenchmark": false,
+        "jobDistributorReportedSeconds": 11,
+        "wallLimitSeconds": 120
+      },
+      "volunteerCredit": 0
+    },
+    "browserEngine": {
+      "id": "rosetta-protocols-v2",
+      "verified": true,
+      "packageBytes": 146308517,
+      "peakHeapBytes": 278396928,
+      "supportedProtocols": [
+        "score",
+        "relax",
+        "minimize",
+        "repack",
+        "fixed_backbone_design",
+        "fastdesign",
+        "cartesian_minimize",
+        "cartesian_relax"
+      ],
+      "verifiedBrowsers": [
+        {
+          "name": "chrome",
+          "chromiumVersion": "153.0.8010.54"
+        },
+        {
+          "name": "brave",
+          "chromiumVersion": "153.0.8010.37"
+        }
+      ],
+      "liveGraphics": {
+        "sources": [
+          "minimizing",
+          "packing"
+        ],
+        "maxInternalSnapshotsPerSecond": 5,
+        "scoring": "ref2015",
+        "displayOnly": true
+      }
+    },
+    "seed": 17,
+    "protocol": "relax",
+    "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+    "officialOutputSha256": "42004e64b9955cdab4c867e270d18966a29012f1a6abd7d71c1d3dd473f47a60",
+    "browserOutputSha256": "0e96d817869e4d20d8180b85541159b4f12a8140f7a550f6b18d6e9baac4c35a",
+    "commonScorer": {
+      "weights": "ref2015",
+      "binarySha256": "ceb2e978e3f5641099c1b785bc8e7fe04c70890de37ad93070b155b8b39a35f1"
+    },
+    "commonObjectiveEnergies": {
+      "input": 32.33483681374909
+    },
+    "browserReportedEnergy": -48.17565422427388,
+    "browserOutputNativeScoreAgrees": true,
+    "commonObjectiveEnergyDifference": 0.026980364388869305,
+    "alignedCAlphaRmsdAngstrom": 0.0075511322646234025,
+    "alignedResidues": 20
+  }
+}

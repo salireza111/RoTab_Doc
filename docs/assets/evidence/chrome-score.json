@@ -1,0 +1,54 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "Standalone chrome score",
+  "sourceSha256": "8e6313e058aed3577f04dd8732c5b765b7f58a71c9ccd6fbd14fb9f8d23cf43c",
+  "measurements": {
+    "result": {
+      "energy": 32.33483681375084,
+      "protocol": "score",
+      "scoreFunction": "ref2015",
+      "objectiveEnergy": 32.33536185521852,
+      "objectiveScoreFunction": "ref2015",
+      "activeMs": 86984,
+      "sleepingMs": 29009.70000001788,
+      "yields": 4,
+      "liveSnapshots": 2,
+      "minimizerEvaluations": 0,
+      "packingMoves": 0,
+      "heapBytes": 231997440,
+      "provenance": {
+        "engineId": "rosetta-protocols-v2",
+        "inputSha256": "bbae7a99a19bd541d60d9fb57dfebf1fdd309f834c715c6c92487e026955ff3f",
+        "outputSha256": "e6e0704465b6c58d4d3b6d44cfe4226c2e126ef911406bdbf0681b1d157b103f",
+        "seed": 17,
+        "dutyCycle": 75
+      },
+      "timing": {
+        "initializationMs": 2430.199999988079,
+        "calculationMs": 117400.70000001788,
+        "totalMs": 119833.5
+      }
+    },
+    "snapshots": [
+      {
+        "energy": 32.33536185521852,
+        "progress": 0,
+        "source": "initial",
+        "sequence": 1,
+        "iteration": 0,
+        "timestamp": 1791653681952,
+        "heapBytes": 231997440
+      },
+      {
+        "energy": 32.33483681375084,
+        "progress": 1,
+        "source": "final",
+        "sequence": 2,
+        "iteration": 0,
+        "timestamp": 1791653706232,
+        "heapBytes": 231997440
+      }
+    ],
+    "nativeEnergy": 32.33483681374909
+  }
+}

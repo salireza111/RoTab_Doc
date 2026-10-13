@@ -1,0 +1,29 @@
+{
+  "format": "rotab-public-validation-summary-v1",
+  "subject": "October 12 live managed TURN allocation and relay-only round trip",
+  "sourceSha256": "09299d78dad239b1875bbfd9303033987913ef14452475769ed84d4a45b5db3b",
+  "measurements": {
+    "checkedAt": "2026-10-12T21:39:13.755Z",
+    "passed": true,
+    "browsers": [
+      {
+        "name": "chrome",
+        "version": "153.0.8010.54",
+        "preflight": true,
+        "preflightMs": 418,
+        "channel": {
+          "passed": true
+        }
+      },
+      {
+        "name": "brave",
+        "version": "155.0.8059.40",
+        "preflight": true,
+        "preflightMs": 392,
+        "channel": {
+          "passed": true
+        }
+      }
+    ]
+  }
+}
