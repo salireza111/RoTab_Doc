@@ -1,8 +1,8 @@
 site_name: RoTab documentation
 site_description: Browser computation, standalone Rosetta methods, volunteer architecture and measured scientific evidence.
 site_url: https://salireza111.github.io/RoTab_Doc/
-repo_url: https://github.com/salireza111/RoTab_Doc
-repo_name: salireza111/RoTab_Doc
+repo_url: https://github.com/salireza111/RoTab
+repo_name: salireza111/RoTab
 edit_uri: ""
 docs_dir: docs
 site_dir: site
